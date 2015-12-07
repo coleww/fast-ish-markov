@@ -5,7 +5,7 @@ function pickRando (arr) {
 
 module.exports = function (lines, n) {
   var chain = {}
-  lines.forEach(function(line) {
+  lines.forEach(function (line) {
     eachCons(line.split(' '), n + 1).forEach(function (link) {
       var k = link.slice(0, n).join(' ')
       if (!chain[k]) chain[k] = []
