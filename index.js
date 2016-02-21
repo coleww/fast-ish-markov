@@ -23,6 +23,7 @@ module.exports = function (lines, n) {
     },
     pick: function () {
       return pickRando(Object.keys(chain))
-    }
+    },
+    chain: chain
   }
 }
