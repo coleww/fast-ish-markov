@@ -13,5 +13,15 @@
   "license": "MIT",
   "dependencies": {
     "each-cons": "^1.0.0"
-  }
+  },
+  "description": "fast-ish-markov ----------------",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coleww/fast-ish-markov.git"
+  },
+  "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
+  "bugs": {
+    "url": "https://github.com/coleww/fast-ish-markov/issues"
+  },
+  "homepage": "https://github.com/coleww/fast-ish-markov#readme"
 }
