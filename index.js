@@ -24,6 +24,9 @@ module.exports = function (lines, n) {
     pick: function () {
       return pickRando(Object.keys(chain))
     },
+    load: function (newChain) {
+      chain = newChain
+    },
     chain: chain
   }
 }
